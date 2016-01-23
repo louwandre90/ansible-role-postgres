@@ -1,7 +1,8 @@
 galaxy_info:
-  author: your name
-  description: 
-  company: your company (optional)
+  author: louwandre90
+  description: Ansible script to install postgres 
+  company: J.A.R.V.I.S. Project
+  version: '0.0.1'
   
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -133,7 +134,10 @@ galaxy_info:
   #  - squeeze
   #  - wheezy
   
-  galaxy_tags: []
+  galaxy_tags: 
+   - postgres
+   - database
+   - debian
     # List tags for your role here, one per line. A tag is
     # a keyword that describes and categorizes the role.
     # Users find roles by searching for tags. Be sure to

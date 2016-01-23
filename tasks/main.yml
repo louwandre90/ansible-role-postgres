@@ -1,5 +1,7 @@
 ---
-# tasks file for ansible-role-postgres/
+# tasks file for ansible-role-postgres
 - name: Install required system packages.
+  become: yes
   apt: pkg={{ item }} state=installed update_cache=true
   with_items: "{{ system_packages }}"
+  tags: postgres
