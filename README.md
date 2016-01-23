@@ -1,7 +1,7 @@
 ansible-role-postgres
 =========
 
-A brief description of the role goes here.
+Role to install postgres packages (postgresql, postgresql-server-dev-all, python-psycopg2)
 
 Requirements
 ------------
