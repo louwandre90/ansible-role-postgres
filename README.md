@@ -1,7 +1,7 @@
 ansible-role-postgres
 =========
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/louwandre90/ansible-role-postgres)
-[![Ansible Role](https://img.shields.io/ansible/role/3078.svg?style=flat-square)](https://galaxy.ansible.com/detail#/role/7181)
+[![Travis](https://img.shields.io/travis/louwandre90/ansible-role-postgres.svg?style=flat-square)](https://travis-ci.org/louwandre90/ansible-role-postgres)
+[![Ansible Role](https://img.shields.io/badge/role-louwandre90.postgres-blue.svg?style=flat-square)](https://galaxy.ansible.com/detail#/role/7181)
 
 This role installs the latest versions of the following postgres packages:
 
