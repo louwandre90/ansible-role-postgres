@@ -28,7 +28,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: louwandre90.ansible-role-postgres }
+         - { role: louwandre90.postgres }
 
 License
 -------
