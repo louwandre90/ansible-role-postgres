@@ -5,8 +5,8 @@ This role installs the latest versions of the following postgres packages:
 * postgresql
 * postgresql-server-dev-all
 * python-psycopg2
-via apt. 
-No configuration is done after installation. 
+
+Packages are installed via apt and no configuration is done after installation. 
 
 Requirements
 ------------
