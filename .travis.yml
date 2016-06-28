@@ -41,6 +41,11 @@ script:
     || (echo 'Idempotence test: fail' && exit 1)
   
   #TODO: test if postgres installed properly. 
+  # Check running postgres has exit code 0
+  - >
+    sudo service postgresql status
+    && (echo 'Status of running postgres is 0 - pass' && exit 0)
+    || (echo 'Status of running postgres is not 0 - fail' && exit 1)
 
 notifications:
   #TODO: webhooks for galaxy
